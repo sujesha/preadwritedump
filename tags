@@ -1,0 +1,734 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL_CFLAGS	Makefile	/^ALL_CFLAGS = -Wall -O2 -g -W $(SUBBUF_CONF_FLAGS) -D_GNU_SOURCE -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DFLUSHDEBUG_SS -DHASHTAB_SIZE_KB=$(HASHTAB_SIZE_KB) -DHASHTAB_SIZE_MB=$(HASHTAB_SIZE_MB) #-DDEBUG_SS$/;"	m
+ALL_CFLAGS	psiphon/Makefile	/^ALL_CFLAGS = $(CFLAGS) $(EXTRA_CFLAGS) -D_GNU_SOURCE -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DDEBUG_SS$/;"	m
+BARRIER_H	psiphon/barrier.h	2;"	d
+BLKSIZE	Makefile	/^BLKSIZE := 4096$/;"	m
+BLKSIZE	config.h	20;"	d
+BLKTAB_SIZE	config.h	27;"	d
+BUF_NR	psiphon/with_outfile_psiphon.c	36;"	d	file:
+BUF_NR	psiphon/with_stdout_psiphon.c	45;"	d	file:
+BUF_SIZE	psiphon/with_outfile_psiphon.c	35;"	d	file:
+BUF_SIZE	psiphon/with_stdout_psiphon.c	44;"	d	file:
+CC	Makefile	/^CC  = gcc$/;"	m
+CC	psiphon/Makefile	/^CC  = gcc$/;"	m
+CFLAGS	psiphon/Makefile	/^CFLAGS  = -Wall -O2 -g -W$/;"	m
+CHECK_MAGIC	psiphon/endianness.h	10;"	d
+CHECK_MAGIC	trace_struct.h	7;"	d
+CL_SIZE	psiphon/main_psiphon.c	186;"	d	file:
+CL_SIZE	psiphon/main_psiphon_with_stdout.c	179;"	d	file:
+CL_SIZE	psiphon/with_stdout_psiphon.c	143;"	d	file:
+CURR_N_SUBBUFS_IO	subbuf_conf.h	42;"	d
+CURR_N_SUBBUFS_IO	subbuf_conf.h	44;"	d
+CURR_N_SUBBUFS_SCAN	subbuf_conf.h	29;"	d
+CURR_N_SUBBUFS_SCAN	subbuf_conf.h	31;"	d
+CURR_SUBBUF_SIZE_IO	subbuf_conf.h	36;"	d
+CURR_SUBBUF_SIZE_IO	subbuf_conf.h	38;"	d
+CURR_SUBBUF_SIZE_SCAN	subbuf_conf.h	23;"	d
+CURR_SUBBUF_SIZE_SCAN	subbuf_conf.h	25;"	d
+DEBUGFS_TYPE	psiphon/main_psiphon.c	82;"	d	file:
+DEBUGFS_TYPE	psiphon/main_psiphon_with_stdout.c	81;"	d	file:
+DEBUGFS_TYPE	psiphon/with_outfile_psiphon.c	39;"	d	file:
+DEBUGFS_TYPE	psiphon/with_stdout_psiphon.c	51;"	d	file:
+DISKNAME	Makefile	/^DISKNAME := $(shell .\/get_diskname.sh)$/;"	m
+DRVNAME	kvmalloc_limits/kvalloc.c	32;"	d	file:
+ENABLE_HASHMAGIC	config.h	47;"	d
+ENABLE_HASHMAGIC	config.h	49;"	d
+ENDIAN_MAGIC	psiphon/endianness.h	7;"	d
+ENDIAN_MAGIC	trace_struct.h	4;"	d
+ENDIAN_VERSION	psiphon/endianness.h	8;"	d
+ENDIAN_VERSION	trace_struct.h	5;"	d
+FIFO_SIZE	psiphon/main_psiphon.c	185;"	d	file:
+FIFO_SIZE	psiphon/main_psiphon_with_stdout.c	178;"	d	file:
+FIFO_SIZE	psiphon/with_stdout_psiphon.c	142;"	d	file:
+HASHLEN	config.h	41;"	d
+HASHLEN_STR	config.h	42;"	d
+HASHTAB_TOTSIZE_MB	prwd_events.h	27;"	d
+HASHTAB_TOTSIZE_MB	prwd_events.h	32;"	d
+HOSTNAME	Makefile	/^HOSTNAME := $(shell hostname)$/;"	m
+HOSTNAME	config.h	24;"	d
+HOSTNAME_LEN	psiphon/main_psiphon.c	83;"	d	file:
+HOSTNAME_LEN	psiphon/main_psiphon_with_stdout.c	82;"	d	file:
+HOSTNAME_LEN	psiphon/with_outfile_psiphon.c	40;"	d	file:
+H_BUF_NR	psiphon/main_psiphon.c	79;"	d	file:
+H_BUF_NR	psiphon/main_psiphon_with_stdout.c	77;"	d	file:
+K4_SIZE	config.h	12;"	d
+KDIR	Makefile	/^KDIR    := \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KDIR	kvmalloc_limits/Makefile	/^KDIR ?= \/lib\/modules\/$(shell uname -r)\/build $/;"	m
+KDIR	kvmalloc_limits/Makefile	/^KDIR ?= ~\/trg\/beagleboard\/linux-2.6.33.2$/;"	m
+KFREE_LDATUM	relayframe.h	11;"	d
+LIBS	Makefile	/^LIBS    = -lpthread$/;"	m
+LIBS	psiphon/Makefile	/^LIBS    = -lpthread$/;"	m
+LINE_BUFSIZE	psiphon/main_psiphon_with_stdout.c	78;"	d	file:
+LINE_BUFSIZE	psiphon/with_stdout_psiphon.c	47;"	d	file:
+MAGIC_SIZE	config.h	53;"	d
+MAGIC_SIZE	config.h	55;"	d
+MAXCHUNKSIZE	Makefile	/^MAXCHUNKSIZE := 65536$/;"	m
+MAX_BUF_NR	psiphon/with_outfile_psiphon.c	37;"	d	file:
+MAX_BUF_NR	psiphon/with_stdout_psiphon.c	46;"	d	file:
+MINCHUNKSIZE	Makefile	/^MINCHUNKSIZE := 512$/;"	m
+NOHASHMAGIC	Makefile	/^NOHASHMAGIC := 1$/;"	m
+NOHASHTAB	Makefile	/^NOHASHTAB := 1 $/;"	m
+NUMBITS_4K	config.h	11;"	d
+NUMBITS_BLKSIZE	config.h	19;"	d
+NUMBITS_SECTSIZE	config.h	9;"	d
+N_SUBBUFS_IODEF	subbuf_conf.h	11;"	d
+N_SUBBUFS_IODEF	subbuf_conf.h	17;"	d
+N_SUBBUFS_SCANDEF	subbuf_conf.h	10;"	d
+N_SUBBUFS_SCANDEF	subbuf_conf.h	16;"	d
+OFILE_BUF	psiphon/main_psiphon.c	80;"	d	file:
+OFILE_BUF	psiphon/main_psiphon_with_stdout.c	79;"	d	file:
+OFILE_BUF	psiphon/with_outfile_psiphon.c	38;"	d	file:
+PARM_N_SUBBUFS_IO	Makefile	/^PARM_N_SUBBUFS_IO := 0$/;"	m
+PARM_N_SUBBUFS_SCAN	Makefile	/^PARM_N_SUBBUFS_SCAN := 0$/;"	m
+PARM_N_SUBBUFS_SPEC_IO	config.h	82;"	d
+PARM_N_SUBBUFS_SPEC_IO	config.h	85;"	d
+PARM_N_SUBBUFS_SPEC_SCAN	config.h	67;"	d
+PARM_N_SUBBUFS_SPEC_SCAN	config.h	70;"	d
+PARM_N_SUBBUFS_VAL_IO	config.h	83;"	d
+PARM_N_SUBBUFS_VAL_SCAN	config.h	68;"	d
+PARM_SUBBUF_SIZE_IO	Makefile	/^PARM_SUBBUF_SIZE_IO := 0$/;"	m
+PARM_SUBBUF_SIZE_SCAN	Makefile	/^PARM_SUBBUF_SIZE_SCAN := 0$/;"	m
+PARM_SUBBUF_SIZE_SPEC_IO	config.h	75;"	d
+PARM_SUBBUF_SIZE_SPEC_IO	config.h	78;"	d
+PARM_SUBBUF_SIZE_SPEC_SCAN	config.h	60;"	d
+PARM_SUBBUF_SIZE_SPEC_SCAN	config.h	63;"	d
+PARM_SUBBUF_SIZE_VAL_IO	config.h	76;"	d
+PARM_SUBBUF_SIZE_VAL_SCAN	config.h	61;"	d
+PNAME_LEN	config.h	32;"	d
+PRINT_BUF	relayframe.h	8;"	d
+PRINT_HEADER	relayframe.h	7;"	d
+PRI_SECT	prwd_events.h	18;"	d
+PRI_SIZEOF	prwd_events.h	25;"	d
+PRI_SIZEOF	prwd_events.h	30;"	d
+PRI_SIZET	prwd_events.h	26;"	d
+PRI_SIZET	prwd_events.h	31;"	d
+PRO_TA_DFR	prwd_events.h	97;"	d
+PRO_TA_OFDW	prwd_events.h	94;"	d
+PRO_TA_OFNW	prwd_events.h	91;"	d
+PRO_TA_OFR	prwd_events.h	89;"	d
+PRO_TA_OFWR	prwd_events.h	112;"	d
+PRO_TA_SFD	prwd_events.h	85;"	d
+PRO_TA_SFDW	prwd_events.h	108;"	d
+PRO_TA_SFN	prwd_events.h	83;"	d
+PRO_TA_SFNW	prwd_events.h	104;"	d
+PRO_TA_SFxR	prwd_events.h	101;"	d
+PRO_TA_SZ	prwd_events.h	87;"	d
+PRO_TC_ACT	prwd_events.h	55;"	d
+PRO_TC_DEDUP	prwd_events.h	/^        PRO_TC_DEDUP        = 1 << 7,       \/* dedup content *\/$/;"	e	enum:__anon1
+PRO_TC_END	prwd_events.h	/^        PRO_TC_END          = 1 << 15,      \/* only 16-bits, reminder *\/$/;"	e	enum:__anon1
+PRO_TC_FIXED	prwd_events.h	/^        PRO_TC_FIXED        = 1 << 4,       \/* related to blocks *\/$/;"	e	enum:__anon1
+PRO_TC_IODISK	prwd_events.h	/^        PRO_TC_IODISK       = 1 << 3,       \/* online (io) phase *\/$/;"	e	enum:__anon1
+PRO_TC_IODUMP	prwd_events.h	/^        PRO_TC_IODUMP		= 1 << 9,       \/* online (io) phase with dump *\/$/;"	e	enum:__anon1
+PRO_TC_NEW	prwd_events.h	/^        PRO_TC_NEW          = 1 << 6,       \/* unseen\/unique content *\/$/;"	e	enum:__anon1
+PRO_TC_READ	prwd_events.h	/^        PRO_TC_READ         = 1 << 0,       \/* reads *\/$/;"	e	enum:__anon1
+PRO_TC_SCANDISK	prwd_events.h	/^        PRO_TC_SCANDISK     = 1 << 2,       \/* scandisk phase *\/$/;"	e	enum:__anon1
+PRO_TC_SHIFT	prwd_events.h	54;"	d
+PRO_TC_VARIABLE	prwd_events.h	/^        PRO_TC_VARIABLE     = 1 << 5,       \/* related to chunks *\/$/;"	e	enum:__anon1
+PRO_TC_WRITE	prwd_events.h	/^        PRO_TC_WRITE        = 1 << 1,       \/* writes *\/$/;"	e	enum:__anon1
+PRO_TC_ZERO	prwd_events.h	/^        PRO_TC_ZERO			= 1 << 8,       \/* dedup content *\/$/;"	e	enum:__anon1
+PST_CTX	kvmalloc_limits/kvalloc.c	/^} ST_CTX, *PST_CTX;$/;"	t	typeref:struct:_ST_CTX	file:
+PWD	Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	kvmalloc_limits/Makefile	/^	PWD         := $(shell pwd)$/;"	m
+RELAY_TRY_AGAIN	relayframe.h	10;"	d
+RHELFLAG	Makefile	/^RHELFLAG := 0$/;"	m
+SECTSIZE	config.h	10;"	d
+SECT_LEN	config.h	16;"	d
+SECT_TO_4K_SHIFTNUM	config.h	13;"	d
+SIG_TEST	kernel_signal_usr.c	14;"	d	file:
+SIG_TEST	psiphon/recv_kernel_sig.c	11;"	d	file:
+STDOUT_BUF	psiphon/main_psiphon.c	70;"	d	file:
+STDOUT_BUF	psiphon/main_psiphon_with_stdout.c	68;"	d	file:
+STDOUT_BUF	psiphon/with_stdout_psiphon.c	43;"	d	file:
+ST_CTX	kvmalloc_limits/kvalloc.c	/^} ST_CTX, *PST_CTX;$/;"	t	typeref:struct:_ST_CTX	file:
+SUBBUF_SIZE_IODEF	subbuf_conf.h	15;"	d
+SUBBUF_SIZE_IODEF	subbuf_conf.h	9;"	d
+SUBBUF_SIZE_SCANDEF	subbuf_conf.h	14;"	d
+SUBBUF_SIZE_SCANDEF	subbuf_conf.h	8;"	d
+S_OPTS	psiphon/main_psiphon.c	88;"	d	file:
+S_OPTS	psiphon/main_psiphon_with_stdout.c	87;"	d	file:
+S_OPTS	psiphon/with_outfile_psiphon.c	45;"	d	file:
+S_OPTS	psiphon/with_stdout_psiphon.c	59;"	d	file:
+TRACE	psiphon/main_psiphon.c	53;"	d	file:
+TRACE	psiphon/main_psiphon_with_stdout.c	51;"	d	file:
+UBUNTUFLAG	Makefile	/^UBUNTUFLAG := 1$/;"	m
+WHERE	psiphon/main_psiphon.c	58;"	d	file:
+WHERE	psiphon/main_psiphon_with_stdout.c	56;"	d	file:
+YESHASHTAB	Makefile	/^YESHASHTAB := 0$/;"	m
+_CONFIG_H_	config.h	2;"	d
+_ENDIANNESS_H_	psiphon/endianness.h	2;"	d
+_HARDDISK_INFO_H_	harddisk-info.h	2;"	d
+_KERNEL_SIGNAL_USR_H_	kernel_signal_usr.h	2;"	d
+_PCOLLECTFUNCS_H_	pcollectfuncs.h	2;"	d
+_PDD_SCANDISK_H_	pdd_scandisk.h	2;"	d
+_PRWD_EVENTS_H_	prwd_events.h	2;"	d
+_PRWD_IODISK_H_	prwd_iodisk.h	2;"	d
+_PRWD_LBLK_H_	prwd_lblk.h	8;"	d
+_RELAYFRAME_H	relayframe.h	2;"	d
+_ST_CTX	kvmalloc_limits/kvalloc.c	/^typedef struct _ST_CTX {$/;"	s	file:
+_SUBBUF_CONF_H	subbuf_conf.h	2;"	d
+_TRACE_STRUCT_H_	psiphon/trace_struct.h	2;"	d
+_TRACE_STRUCT_H_	trace_struct.h	2;"	d
+__PRO_TA_DFR	prwd_events.h	/^    __PRO_TA_DFR,       \/* online phase read event with datadump *\/$/;"	e	enum:event_type
+__PRO_TA_OFDW	prwd_events.h	/^    __PRO_TA_OFDW,       \/* online phase write event - dedup block content *\/$/;"	e	enum:event_type
+__PRO_TA_OFNW	prwd_events.h	/^    __PRO_TA_OFNW,       \/* online phase write event - new block content *\/$/;"	e	enum:event_type
+__PRO_TA_OFR	prwd_events.h	/^    __PRO_TA_OFR,       \/* online phase read event *\/$/;"	e	enum:event_type
+__PRO_TA_OFWR	prwd_events.h	/^    __PRO_TA_OFWR,       \/* online phase read event (self-generated) *\/$/;"	e	enum:event_type
+__PRO_TA_OVDW	prwd_events.h	/^    __PRO_TA_OVDW,       \/* online phase dedup chunk *\/$/;"	e	enum:event_type
+__PRO_TA_OVNW	prwd_events.h	/^    __PRO_TA_OVNW,       \/* online phase new chunk *\/$/;"	e	enum:event_type
+__PRO_TA_SFD	prwd_events.h	/^    __PRO_TA_SFD,       \/* scanning phase dedup block *\/$/;"	e	enum:event_type
+__PRO_TA_SFDW	prwd_events.h	/^    __PRO_TA_SFDW,       \/* scanning phase write event dedup block *\/$/;"	e	enum:event_type
+__PRO_TA_SFN	prwd_events.h	/^    __PRO_TA_SFN,       \/* scanning phase new block *\/$/;"	e	enum:event_type
+__PRO_TA_SFNW	prwd_events.h	/^    __PRO_TA_SFNW,       \/* scanning phase write event new block *\/$/;"	e	enum:event_type
+__PRO_TA_SFxR	prwd_events.h	/^    __PRO_TA_SFxR,       \/* scanning phase read event *\/$/;"	e	enum:event_type
+__PRO_TA_SVDW	prwd_events.h	/^    __PRO_TA_SVDW,       \/* scanning phase dedup chunk replacement *\/$/;"	e	enum:event_type
+__PRO_TA_SVDx	prwd_events.h	/^    __PRO_TA_SVDx,       \/* scanning phase dedup chunk *\/$/;"	e	enum:event_type
+__PRO_TA_SVNW	prwd_events.h	/^    __PRO_TA_SVNW,       \/* scanning phase new chunk replacement *\/$/;"	e	enum:event_type
+__PRO_TA_SVNx	prwd_events.h	/^    __PRO_TA_SVNx = 1,   \/* scanning phase new chunk *\/$/;"	e	enum:event_type
+__PRO_TA_SZ	prwd_events.h	/^	__PRO_TA_SZ,		 \/* scanning phase zero block *\/$/;"	e	enum:event_type
+__for_each_bip	psiphon/main_psiphon.c	266;"	d	file:
+__for_each_bip	psiphon/main_psiphon_with_stdout.c	259;"	d	file:
+__for_each_bip	psiphon/with_outfile_psiphon.c	170;"	d	file:
+__for_each_bip	psiphon/with_stdout_psiphon.c	219;"	d	file:
+__for_each_tip	psiphon/main_psiphon.c	270;"	d	file:
+__for_each_tip	psiphon/main_psiphon_with_stdout.c	263;"	d	file:
+__for_each_tip	psiphon/with_outfile_psiphon.c	174;"	d	file:
+__for_each_tip	psiphon/with_stdout_psiphon.c	223;"	d	file:
+__kernel_dmb	psiphon/barrier.h	27;"	d
+__kernel_dmb_t	psiphon/barrier.h	/^  typedef void (__kernel_dmb_t)(void);$/;"	t
+__this_module	kvmalloc_limits/kvalloc.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__this_module	preadwritedump.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	kvmalloc_limits/kvalloc.mod.c	/^__used$/;"	v	file:
+__used	kvmalloc_limits/kvalloc.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	preadwritedump.mod.c	/^__used$/;"	v	file:
+__used	preadwritedump.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+_read_block	pdd_scandisk.c	/^int _read_block(struct block_device *bdev, sector_t start, unsigned int numsect, unsigned char *buf)$/;"	f
+adjust_sector	pcollectfuncs.c	/^sector_t adjust_sector(struct bio *bio)$/;"	f
+alloc_kmem	prwd_events.c	/^unsigned char* alloc_kmem(int len)$/;"	f
+base_information	psiphon/main_psiphon.c	/^struct base_information $/;"	s	file:
+base_information	psiphon/main_psiphon.c	/^struct base_information *base_information;$/;"	v	typeref:struct:base_information
+base_information	psiphon/main_psiphon_with_stdout.c	/^struct base_information $/;"	s	file:
+base_information	psiphon/main_psiphon_with_stdout.c	/^struct base_information *base_information;$/;"	v	typeref:struct:base_information
+base_information	psiphon/with_outfile_psiphon.c	/^static struct base_information *base_information;$/;"	v	typeref:struct:base_information	file:
+base_information	psiphon/with_outfile_psiphon.c	/^struct base_information $/;"	s	file:
+base_information	psiphon/with_stdout_psiphon.c	/^static struct base_information *base_information;$/;"	v	typeref:struct:base_information	file:
+base_information	psiphon/with_stdout_psiphon.c	/^struct base_information $/;"	s	file:
+base_name	psiphon/main_psiphon.c	/^    char *base_name;$/;"	m	struct:infile_info	file:
+base_name	psiphon/main_psiphon_with_stdout.c	/^    char *base_name;$/;"	m	struct:infile_info	file:
+base_name	psiphon/with_outfile_psiphon.c	/^    char *base_name;$/;"	m	struct:infile_info	file:
+base_name	psiphon/with_stdout_psiphon.c	/^    char *base_name;$/;"	m	struct:infile_info	file:
+bd_dev	pcollectfuncs.h	/^    dev_t       bd_dev;$/;"	m	struct:old_bio_data_prwd
+be16_to_cpu	psiphon/endianness.h	13;"	d
+be16_to_cpu	psiphon/endianness.h	20;"	d
+be32_to_cpu	psiphon/endianness.h	14;"	d
+be32_to_cpu	psiphon/endianness.h	21;"	d
+be64_to_cpu	psiphon/endianness.h	15;"	d
+be64_to_cpu	psiphon/endianness.h	22;"	d
+bi_end_io	pcollectfuncs.h	/^    bio_end_io_t    *bi_end_io;$/;"	m	struct:old_bio_data_prwd
+bi_private	pcollectfuncs.h	/^    void        *bi_private;$/;"	m	struct:old_bio_data_prwd
+bi_sector	pcollectfuncs.h	/^    sector_t    bi_sector;$/;"	m	struct:old_bio_data_prwd
+bi_size	pcollectfuncs.h	/^    unsigned int    bi_size;$/;"	m	struct:old_bio_data_prwd
+blktab_size	main_preadwritedump.c	/^unsigned int blktab_size = 0;$/;"	v
+block_node	prwd_lblk.h	/^struct block_node{$/;"	s
+buf	psiphon/main_psiphon.c	/^    void *buf;$/;"	m	struct:tip_subbuf	file:
+buf	psiphon/main_psiphon_with_stdout.c	/^    void *buf;$/;"	m	struct:tip_subbuf	file:
+buf	psiphon/with_stdout_psiphon.c	/^    void *buf;$/;"	m	struct:tip_subbuf	file:
+buf_nr	psiphon/main_psiphon.c	/^static unsigned long buf_nr = CURR_N_SUBBUFS_IO*4;	\/\/trying with 4*98!$/;"	v	file:
+buf_nr	psiphon/main_psiphon_with_stdout.c	/^static unsigned long buf_nr = CURR_N_SUBBUFS_IO;$/;"	v	file:
+buf_nr	psiphon/with_outfile_psiphon.c	/^static unsigned long buf_nr = BUF_NR;$/;"	v	file:
+buf_nr	psiphon/with_stdout_psiphon.c	/^static unsigned long buf_nr = BUF_NR;$/;"	v	file:
+buf_size	psiphon/main_psiphon.c	/^static unsigned long buf_size = CURR_SUBBUF_SIZE_IO;$/;"	v	file:
+buf_size	psiphon/main_psiphon_with_stdout.c	/^static unsigned long buf_size = CURR_SUBBUF_SIZE_IO;$/;"	v	file:
+buf_size	psiphon/with_outfile_psiphon.c	/^static unsigned long buf_size = BUF_SIZE;$/;"	v	file:
+buf_size	psiphon/with_stdout_psiphon.c	/^static unsigned long buf_size = BUF_SIZE;$/;"	v	file:
+chanoffset	prwd_lblk.h	/^    unsigned long long chanoffset;$/;"	m	struct:block_node
+check_data_endianness	psiphon/endianness.c	/^int check_data_endianness(struct trace_event_element *t)$/;"	f
+close_thread	psiphon/main_psiphon.c	/^static void close_thread(struct thread_information *tip)$/;"	f	file:
+close_thread	psiphon/main_psiphon_with_stdout.c	/^static void close_thread(struct thread_information *tip)$/;"	f	file:
+close_thread	psiphon/with_outfile_psiphon.c	/^static void close_thread(struct thread_information *tip)$/;"	f	file:
+close_thread	psiphon/with_stdout_psiphon.c	/^static void close_thread(struct thread_information *tip)$/;"	f	file:
+configfd	psiphon/recv_kernel_sig.c	/^int configfd;$/;"	v
+cpu	psiphon/main_psiphon.c	/^    int cpu;					\/* The cpu for this thread *\/$/;"	m	struct:thread_information	file:
+cpu	psiphon/main_psiphon_with_stdout.c	/^    int cpu;					\/* The cpu for this thread *\/$/;"	m	struct:thread_information	file:
+cpu	psiphon/with_outfile_psiphon.c	/^    int cpu, ifd;$/;"	m	struct:infile_info	file:
+cpu	psiphon/with_outfile_psiphon.c	/^    int cpu;					\/* The cpu for this thread *\/$/;"	m	struct:thread_information	file:
+cpu	psiphon/with_stdout_psiphon.c	/^    int cpu, ifd;$/;"	m	struct:infile_info	file:
+cpu	psiphon/with_stdout_psiphon.c	/^    int cpu;					\/* The cpu for this thread *\/$/;"	m	struct:thread_information	file:
+cpu_to_be16	psiphon/endianness.h	16;"	d
+cpu_to_be16	psiphon/endianness.h	23;"	d
+cpu_to_be32	psiphon/endianness.h	17;"	d
+cpu_to_be32	psiphon/endianness.h	24;"	d
+cpu_to_be64	psiphon/endianness.h	18;"	d
+cpu_to_be64	psiphon/endianness.h	25;"	d
+cpunum	prwd_lblk.h	/^    unsigned char cpunum;$/;"	m	struct:block_node
+data_is_native	psiphon/endianness.c	/^int data_is_native = -1;$/;"	v
+data_read	psiphon/main_psiphon.c	/^    unsigned long long data_read;$/;"	m	struct:thread_information	file:
+data_read	psiphon/main_psiphon_with_stdout.c	/^    unsigned long long data_read;$/;"	m	struct:thread_information	file:
+data_read	psiphon/with_outfile_psiphon.c	/^    unsigned long long data_read;$/;"	m	struct:thread_information	file:
+data_read	psiphon/with_stdout_psiphon.c	/^    unsigned long long data_read;$/;"	m	struct:thread_information	file:
+debugfs_path	psiphon/main_psiphon.c	/^char *debugfs_path;$/;"	v
+debugfs_path	psiphon/main_psiphon_with_stdout.c	/^char *debugfs_path;$/;"	v
+debugfs_path	psiphon/with_outfile_psiphon.c	/^static char *debugfs_path;$/;"	v	file:
+debugfs_path	psiphon/with_stdout_psiphon.c	/^static char *debugfs_path;$/;"	v	file:
+dev	main_preadwritedump.c	/^dev_t dev;$/;"	v
+devname	main_preadwritedump.c	/^char devname[10];$/;"	v
+die	pdd_scandisk.c	/^int die = 0;		\/* set this to 1 for shutdown *\/$/;"	v
+dir1	prwd_events.c	/^struct dentry *dir1 = NULL;$/;"	v	typeref:struct:dentry
+dir2	prwd_events.c	/^struct dentry *dir2 = NULL;$/;"	v	typeref:struct:dentry
+do_pdd_trace_dropped_setup	prwd_events.c	/^int do_pdd_trace_dropped_setup(void)$/;"	f
+do_something	kvmalloc_limits/kvalloc.c	/^static int do_something(void *kvm, u32 len)$/;"	f	file:
+done	psiphon/with_outfile_psiphon.c	/^static volatile int done;$/;"	v	file:
+done	psiphon/with_stdout_psiphon.c	/^static volatile int done;$/;"	v	file:
+drop_count	psiphon/main_psiphon.c	/^	unsigned long drop_count;$/;"	m	struct:base_information	file:
+drop_count	psiphon/main_psiphon_with_stdout.c	/^	unsigned long drop_count;$/;"	m	struct:base_information	file:
+dropped	relayframe.h	/^	atomic_t dropped;$/;"	m	struct:pdd_trace
+dropped_file	relayframe.h	/^	struct dentry *dropped_file;$/;"	m	struct:pdd_trace	typeref:struct:pdd_trace::dentry
+elt_len	psiphon/trace_struct.h	/^    __u32 elt_len;  \/* length of data in next trace element *\/$/;"	m	struct:trace_event_element
+elt_len	trace_struct.h	/^    __u32 elt_len;  \/* length of data in next trace element *\/$/;"	m	struct:trace_event_element
+end_probes	prwd_iodisk.c	/^void end_probes(void)$/;"	f
+end_relays	prwd_events.c	/^void end_relays(void)$/;"	f
+event_type	prwd_events.h	/^enum event_type{$/;"	g
+events_processed	psiphon/main_psiphon.c	/^	unsigned long events_processed;$/;"	m	struct:thread_information	file:
+events_processed	psiphon/main_psiphon_with_stdout.c	/^	unsigned long events_processed;$/;"	m	struct:thread_information	file:
+events_processed	psiphon/with_stdout_psiphon.c	/^	unsigned long events_processed;$/;"	m	struct:thread_information	file:
+exit_siphon	psiphon/main_psiphon.c	/^static void exit_siphon()$/;"	f	file:
+exit_siphon	psiphon/main_psiphon_with_stdout.c	/^static void exit_siphon()$/;"	f	file:
+exited	psiphon/main_psiphon.c	/^    int exited;$/;"	m	struct:thread_information	file:
+exited	psiphon/main_psiphon_with_stdout.c	/^    int exited;$/;"	m	struct:thread_information	file:
+exited	psiphon/with_outfile_psiphon.c	/^    int exited;$/;"	m	struct:thread_information	file:
+exited	psiphon/with_stdout_psiphon.c	/^    int exited;$/;"	m	struct:thread_information	file:
+fd_buf	psiphon/main_psiphon.c	/^    void *fd_buf;$/;"	m	struct:thread_information	file:
+fd_buf	psiphon/main_psiphon_with_stdout.c	/^    void *fd_buf;$/;"	m	struct:thread_information	file:
+fd_buf	psiphon/with_outfile_psiphon.c	/^    void *fd_buf;$/;"	m	struct:thread_information	file:
+fd_buf	psiphon/with_stdout_psiphon.c	/^    void *fd_buf;$/;"	m	struct:thread_information	file:
+fifo	psiphon/main_psiphon.c	/^    struct tip_subbuf_fifo fifo;$/;"	m	struct:thread_information	typeref:struct:thread_information::tip_subbuf_fifo	file:
+fifo	psiphon/main_psiphon_with_stdout.c	/^    struct tip_subbuf_fifo fifo;$/;"	m	struct:thread_information	typeref:struct:thread_information::tip_subbuf_fifo	file:
+fifo	psiphon/with_stdout_psiphon.c	/^    struct tip_subbuf_fifo fifo;$/;"	m	struct:thread_information	typeref:struct:thread_information::tip_subbuf_fifo	file:
+file_close	harddisk-info.c	/^void file_close(struct file* file) {$/;"	f
+file_open	harddisk-info.c	/^struct file* file_open(const char* path, int flags, int rights) {$/;"	f
+file_read	harddisk-info.c	/^int file_read(struct file* file, unsigned long long offset, unsigned char* data, unsigned int size) {$/;"	f
+file_write	harddisk-info.c	/^int file_write(struct file* file, unsigned long long offset, unsigned char* data, unsigned int size) {$/;"	f
+fill_ofname	psiphon/main_psiphon.c	/^static int fill_ofname(struct thread_information *tip, char *dst,$/;"	f	file:
+fill_ofname	psiphon/main_psiphon_with_stdout.c	/^static int fill_ofname(struct thread_information *tip, char *dst,$/;"	f	file:
+fill_ofname	psiphon/with_outfile_psiphon.c	/^static int fill_ofname(struct thread_information *tip, char *dst,$/;"	f	file:
+flush_subbuf	psiphon/main_psiphon_with_stdout.c	/^static int flush_subbuf(struct thread_information *tip,$/;"	f	file:
+flush_subbuf	psiphon/with_stdout_psiphon.c	/^static int flush_subbuf(struct thread_information *tip,$/;"	f	file:
+fn	psiphon/main_psiphon.c	/^    char fn[MAXPATHLEN + 64];	\/* The file's name *\/$/;"	m	struct:infile_info	file:
+fn	psiphon/main_psiphon_with_stdout.c	/^    char fn[MAXPATHLEN + 64];	\/* The file's name *\/$/;"	m	struct:infile_info	file:
+fn	psiphon/with_outfile_psiphon.c	/^    char fn[MAXPATHLEN + 64];	\/* The file's name *\/$/;"	m	struct:infile_info	file:
+fn	psiphon/with_stdout_psiphon.c	/^    char fn[MAXPATHLEN + 64];	\/* The file's name *\/$/;"	m	struct:infile_info	file:
+for_each_bip	psiphon/main_psiphon.c	268;"	d	file:
+for_each_bip	psiphon/main_psiphon_with_stdout.c	261;"	d	file:
+for_each_bip	psiphon/with_outfile_psiphon.c	172;"	d	file:
+for_each_bip	psiphon/with_stdout_psiphon.c	221;"	d	file:
+for_each_tip	psiphon/main_psiphon.c	272;"	d	file:
+for_each_tip	psiphon/main_psiphon_with_stdout.c	265;"	d	file:
+for_each_tip	psiphon/with_outfile_psiphon.c	176;"	d	file:
+for_each_tip	psiphon/with_stdout_psiphon.c	225;"	d	file:
+free_mem	prwd_events.c	/^void free_mem(unsigned char *mem)$/;"	f
+fs_buf	psiphon/main_psiphon.c	/^    void *fs_buf;$/;"	m	struct:thread_information	file:
+fs_buf	psiphon/main_psiphon_with_stdout.c	/^    void *fs_buf;$/;"	m	struct:thread_information	file:
+fs_buf	psiphon/with_outfile_psiphon.c	/^    void *fs_buf;$/;"	m	struct:thread_information	file:
+fs_buf	psiphon/with_stdout_psiphon.c	/^    void *fs_buf;$/;"	m	struct:thread_information	file:
+fs_buf_len	psiphon/main_psiphon.c	/^    unsigned long fs_buf_len;$/;"	m	struct:thread_information	file:
+fs_buf_len	psiphon/main_psiphon_with_stdout.c	/^    unsigned long fs_buf_len;$/;"	m	struct:thread_information	file:
+fs_buf_len	psiphon/with_outfile_psiphon.c	/^    unsigned long fs_buf_len;$/;"	m	struct:thread_information	file:
+fs_buf_len	psiphon/with_stdout_psiphon.c	/^    unsigned long fs_buf_len;$/;"	m	struct:thread_information	file:
+fs_max_size	psiphon/main_psiphon.c	/^    unsigned long long fs_max_size;$/;"	m	struct:thread_information	file:
+fs_max_size	psiphon/main_psiphon_with_stdout.c	/^    unsigned long long fs_max_size;$/;"	m	struct:thread_information	file:
+fs_max_size	psiphon/with_outfile_psiphon.c	/^    unsigned long long fs_max_size;$/;"	m	struct:thread_information	file:
+fs_max_size	psiphon/with_stdout_psiphon.c	/^    unsigned long long fs_max_size;$/;"	m	struct:thread_information	file:
+fs_off	psiphon/main_psiphon.c	/^    unsigned long fs_off;$/;"	m	struct:thread_information	file:
+fs_off	psiphon/main_psiphon_with_stdout.c	/^    unsigned long fs_off;$/;"	m	struct:thread_information	file:
+fs_off	psiphon/with_outfile_psiphon.c	/^    unsigned long fs_off;$/;"	m	struct:thread_information	file:
+fs_off	psiphon/with_stdout_psiphon.c	/^    unsigned long fs_off;$/;"	m	struct:thread_information	file:
+fs_size	psiphon/main_psiphon.c	/^    unsigned long long fs_size;$/;"	m	struct:thread_information	file:
+fs_size	psiphon/main_psiphon_with_stdout.c	/^    unsigned long long fs_size;$/;"	m	struct:thread_information	file:
+fs_size	psiphon/with_outfile_psiphon.c	/^    unsigned long long fs_size;$/;"	m	struct:thread_information	file:
+fs_size	psiphon/with_stdout_psiphon.c	/^    unsigned long long fs_size;$/;"	m	struct:thread_information	file:
+getHash	config.h	43;"	d
+get_and_write_events	psiphon/main_psiphon_with_stdout.c	/^void get_and_write_events(void)$/;"	f
+get_and_write_events	psiphon/with_stdout_psiphon.c	/^static void get_and_write_events(void)$/;"	f	file:
+get_drop_counts	psiphon/main_psiphon.c	/^void get_drop_counts(void)$/;"	f
+get_drop_counts	psiphon/main_psiphon_with_stdout.c	/^void get_drop_counts(void)$/;"	f
+get_dropped_count	psiphon/main_psiphon.c	/^static int get_dropped_count(struct base_information *bip)$/;"	f	file:
+get_dropped_count	psiphon/main_psiphon_with_stdout.c	/^static int get_dropped_count(struct base_information *bip)$/;"	f	file:
+get_eventname	prwd_events.c	/^static inline int get_eventname(int traceaction, char *event)$/;"	f	file:
+get_major_for_devname	psiphon/main_psiphon.c	/^unsigned int get_major_for_devname(char *name)$/;"	f
+get_major_for_devname	psiphon/main_psiphon_with_stdout.c	/^unsigned int get_major_for_devname(char *name)$/;"	f
+get_start_end_lba	pdd_scandisk.c	/^int get_start_end_lba(struct block_device *bdev, sector_t *start, sector_t *end)$/;"	f
+get_subbuf	psiphon/main_psiphon.c	/^	int (*get_subbuf)(struct thread_information *, unsigned int);$/;"	m	struct:thread_information	file:
+get_subbuf	psiphon/main_psiphon_with_stdout.c	/^	int (*get_subbuf)(struct thread_information *, unsigned int);$/;"	m	struct:thread_information	file:
+get_subbuf	psiphon/main_psiphon_with_stdout.c	/^int get_subbuf(struct thread_information *tip, unsigned int maxlen)$/;"	f
+get_subbuf	psiphon/with_outfile_psiphon.c	/^static int get_subbuf(struct thread_information *tip, unsigned int maxlen)$/;"	f	file:
+get_subbuf	psiphon/with_stdout_psiphon.c	/^static int get_subbuf(struct thread_information *tip, unsigned int maxlen)$/;"	f	file:
+get_task_send_signal	kernel_signal_usr.c	/^int get_task_send_signal(void)$/;"	f
+get_timestamp	prwd_events.c	/^void get_timestamp(lblk_datum *ldatum)$/;"	f
+gettip_by_localname	psiphon/main_psiphon.c	/^struct thread_information* gettip_by_localname(char *localname)$/;"	f
+gettip_by_localname	psiphon/main_psiphon_with_stdout.c	/^struct thread_information* gettip_by_localname(char *localname)$/;"	f
+gmajor	harddisk-info.c	/^unsigned int gmajor;$/;"	v
+gminor	harddisk-info.c	/^unsigned int gminor;$/;"	v
+gpstCtx	kvmalloc_limits/kvalloc.c	/^static PST_CTX gpstCtx=NULL;$/;"	v	file:
+handle_read_block_prwd	prwd_iodisk.c	/^int handle_read_block_prwd(char *databuf, u32 nbytes,$/;"	f
+handle_sigint	psiphon/main_psiphon.c	/^void handle_sigint(__attribute__((__unused__)) int sig)$/;"	f
+handle_sigint	psiphon/main_psiphon_with_stdout.c	/^void handle_sigint(__attribute__((__unused__)) int sig)$/;"	f
+handle_sigint	psiphon/with_outfile_psiphon.c	/^static void handle_sigint(__attribute__((__unused__)) int sig)$/;"	f	file:
+handle_sigint	psiphon/with_stdout_psiphon.c	/^static void handle_sigint(__attribute__((__unused__)) int sig)$/;"	f	file:
+handle_write_block	prwd_iodisk.c	/^int handle_write_block(char *databuf, u32 nbytes, sector_t blockID, $/;"	f
+head	psiphon/main_psiphon.c	/^    int head __attribute__((aligned(CL_SIZE)));$/;"	m	struct:tip_subbuf_fifo	file:
+head	psiphon/main_psiphon_with_stdout.c	/^    int head __attribute__((aligned(CL_SIZE)));$/;"	m	struct:tip_subbuf_fifo	file:
+head	psiphon/with_stdout_psiphon.c	/^    int head __attribute__((aligned(CL_SIZE)));$/;"	m	struct:tip_subbuf_fifo	file:
+host_name	psiphon/main_psiphon.c	/^static char *host_name;   					\/* Host name for prefixing *\/$/;"	v	file:
+host_name	psiphon/main_psiphon_with_stdout.c	/^static char *host_name;   					\/* Host name for prefixing *\/$/;"	v	file:
+host_name	psiphon/with_outfile_psiphon.c	/^static char *host_name;   					\/* Host name for prefixing *\/$/;"	v	file:
+ifd	psiphon/main_psiphon.c	/^    int ifd;$/;"	m	struct:infile_info	file:
+ifd	psiphon/main_psiphon_with_stdout.c	/^    int ifd;$/;"	m	struct:infile_info	file:
+ifd	psiphon/with_outfile_psiphon.c	/^    int cpu, ifd;$/;"	m	struct:infile_info	file:
+ifd	psiphon/with_stdout_psiphon.c	/^    int cpu, ifd;$/;"	m	struct:infile_info	file:
+ii	psiphon/main_psiphon.c	/^	struct infile_info ii;		\/* Input file this is associated with *\/$/;"	m	struct:thread_information	typeref:struct:thread_information::infile_info	file:
+ii	psiphon/main_psiphon_with_stdout.c	/^	struct infile_info ii;		\/* Input file this is associated with *\/$/;"	m	struct:thread_information	typeref:struct:thread_information::infile_info	file:
+ii	psiphon/with_outfile_psiphon.c	/^	struct infile_info ii;		\/* Input file this is associated with *\/$/;"	m	struct:thread_information	typeref:struct:thread_information::infile_info	file:
+ii	psiphon/with_stdout_psiphon.c	/^	struct infile_info ii;		\/* Input file this is associated with *\/$/;"	m	struct:thread_information	typeref:struct:thread_information::infile_info	file:
+infile_info	psiphon/main_psiphon.c	/^struct infile_info {$/;"	s	file:
+infile_info	psiphon/main_psiphon_with_stdout.c	/^struct infile_info {$/;"	s	file:
+infile_info	psiphon/with_outfile_psiphon.c	/^struct infile_info {$/;"	s	file:
+infile_info	psiphon/with_stdout_psiphon.c	/^struct infile_info {$/;"	s	file:
+invalid_output_name	psiphon/main_psiphon.c	/^static int invalid_output_name(char *path)$/;"	f	file:
+invalid_output_name	psiphon/main_psiphon_with_stdout.c	/^static int invalid_output_name(char *path)$/;"	f	file:
+io_callbacks	relayframe.c	/^static struct rchan_callbacks io_callbacks = {$/;"	v	typeref:struct:rchan_callbacks	file:
+io_subbuf_start_callback	relayframe.c	/^static int io_subbuf_start_callback(struct rchan_buf *buf, void *subbuf,$/;"	f	file:
+iochan	prwd_events.c	/^struct rchan *iochan = NULL;     \/* relay channel for read\/write req *\/$/;"	v	typeref:struct:rchan
+iocount	prwd_events.c	/^unsigned long long *iocount = NULL;$/;"	v
+iodisk_relaychan_exit	prwd_events.c	/^void iodisk_relaychan_exit()$/;"	f
+iodisk_relaychan_init	prwd_events.c	/^int iodisk_relaychan_init(void)$/;"	f
+iotab	lblktab.c	/^struct lblktab_t iotab;$/;"	v	typeref:struct:lblktab_t
+iotab_alive	lblktab.c	/^static int iotab_alive = 0;$/;"	v	file:
+iotab_exit	lblktab.c	/^void iotab_exit(void)$/;"	f
+iotab_init	lblktab.c	/^int iotab_init(struct lblktab_t *l, unsigned int size)$/;"	f
+isPrime	main_preadwritedump.c	/^int isPrime(unsigned int num)$/;"	f
+is_done	psiphon/with_outfile_psiphon.c	164;"	d	file:
+is_done	psiphon/with_stdout_psiphon.c	213;"	d	file:
+is_parentdisk	pdd_scandisk.c	/^int is_parentdisk(struct block_device *bdev)$/;"	f
+is_producerdone	psiphon/main_psiphon.c	261;"	d	file:
+is_producerdone	psiphon/main_psiphon_with_stdout.c	254;"	d	file:
+is_siphon_stopped	psiphon/main_psiphon.c	263;"	d	file:
+is_siphon_stopped	psiphon/main_psiphon_with_stdout.c	256;"	d	file:
+is_siphon_stopped	psiphon/with_outfile_psiphon.c	167;"	d	file:
+is_siphon_stopped	psiphon/with_stdout_psiphon.c	216;"	d	file:
+isdigit	harddisk-info.c	/^static inline int isdigit(int ch)$/;"	f	file:
+jp_make_request	prwd_iodisk.c	/^static struct jprobe jp_make_request = {$/;"	v	typeref:struct:jprobe	file:
+kernel_signal_usr_exit	kernel_signal_usr.c	/^void kernel_signal_usr_exit(void)$/;"	f
+kernel_signal_usr_fops	kernel_signal_usr.c	/^static const struct file_operations kernel_signal_usr_fops = {$/;"	v	typeref:struct:file_operations	file:
+kernel_signal_usr_init	kernel_signal_usr.c	/^int kernel_signal_usr_init(void)$/;"	f
+kill_running_siphon	psiphon/main_psiphon.c	/^static int kill_running_siphon;$/;"	v	file:
+kill_running_siphon	psiphon/main_psiphon_with_stdout.c	/^static int kill_running_siphon;$/;"	v	file:
+kill_running_siphon	psiphon/with_outfile_psiphon.c	/^static int kill_running_siphon;$/;"	v	file:
+kill_running_siphon	psiphon/with_stdout_psiphon.c	/^static int kill_running_siphon;$/;"	v	file:
+kmalloc_procread	kvmalloc_limits/kvalloc.c	/^static int kmalloc_procread(char *buf, char **start, off_t offset,$/;"	f	file:
+kmalloc_procwrite	kvmalloc_limits/kvalloc.c	/^static int kmalloc_procwrite(struct file *file, const char __user *buffer,$/;"	f	file:
+kname	kvmalloc_limits/kvalloc.c	/^	char * kname, *vname;$/;"	m	struct:_ST_CTX	file:
+kthreadp	pdd_scandisk.c	/^struct task_struct *kthreadp = NULL;$/;"	v	typeref:struct:task_struct
+kvalloc	kvmalloc_limits/kvalloc.c	/^	u32 kvalloc; 		 \/\/ # bytes to alloc$/;"	m	struct:_ST_CTX	file:
+l_opts	psiphon/main_psiphon.c	/^static struct option l_opts[] = {$/;"	v	typeref:struct:option	file:
+l_opts	psiphon/main_psiphon_with_stdout.c	/^static struct option l_opts[] = {$/;"	v	typeref:struct:option	file:
+l_opts	psiphon/with_outfile_psiphon.c	/^static struct option l_opts[] = {$/;"	v	typeref:struct:option	file:
+l_opts	psiphon/with_stdout_psiphon.c	/^static struct option l_opts[] = {$/;"	v	typeref:struct:option	file:
+lblk_datum	prwd_lblk.h	/^typedef struct block_node lblk_datum;$/;"	t	typeref:struct:block_node
+lblkcmp	lblktab.c	/^static int lblkcmp(struct hashtab *h, const void *key1, const void *key2)$/;"	f	file:
+lblkhash	lblktab.c	/^static u32 lblkhash(struct hashtab *h, const void *key)$/;"	f	file:
+lblktab_exit	lblktab.c	/^void lblktab_exit(struct lblktab_t *l)$/;"	f
+lblktab_init	lblktab.c	/^int lblktab_init(struct lblktab_t *l, unsigned int size)$/;"	f
+leftover_ts	psiphon/main_psiphon.c	/^    struct tip_subbuf *leftover_ts;$/;"	m	struct:thread_information	typeref:struct:thread_information::tip_subbuf	file:
+leftover_ts	psiphon/main_psiphon_with_stdout.c	/^    struct tip_subbuf *leftover_ts;$/;"	m	struct:thread_information	typeref:struct:thread_information::tip_subbuf	file:
+leftover_ts	psiphon/with_stdout_psiphon.c	/^    struct tip_subbuf *leftover_ts;$/;"	m	struct:thread_information	typeref:struct:thread_information::tip_subbuf	file:
+len	psiphon/main_psiphon.c	/^    unsigned int len;$/;"	m	struct:tip_subbuf	file:
+len	psiphon/main_psiphon_with_stdout.c	/^    unsigned int len;$/;"	m	struct:tip_subbuf	file:
+len	psiphon/with_stdout_psiphon.c	/^    unsigned int len;$/;"	m	struct:tip_subbuf	file:
+localname	psiphon/main_psiphon.c	/^	char localname[64];			\/* The file's localname *\/$/;"	m	struct:infile_info	file:
+localname	psiphon/main_psiphon_with_stdout.c	/^	char localname[64];			\/* The file's localname *\/$/;"	m	struct:infile_info	file:
+lock	kvmalloc_limits/kvalloc.c	/^	struct mutex lock;$/;"	m	struct:_ST_CTX	typeref:struct:_ST_CTX::mutex	file:
+magic	psiphon/trace_struct.h	/^	__u32 magic;$/;"	m	struct:trace_event_element
+magic	trace_struct.h	/^	__u32 magic;$/;"	m	struct:trace_event_element
+main	psiphon/main_psiphon.c	/^int main(int argc, char *argv[])$/;"	f
+main	psiphon/main_psiphon_with_stdout.c	/^int main(int argc, char *argv[])$/;"	f
+main	psiphon/with_outfile_psiphon.c	/^int main(int argc, char *argv[])$/;"	f
+main	psiphon/with_stdout_psiphon.c	/^int main(int argc, char *argv[])$/;"	f
+major	pcollectfuncs.h	/^	unsigned major;$/;"	m	struct:old_bio_data_prwd
+major	prwd_lblk.h	/^	unsigned int major;$/;"	m	struct:process_node
+markMagicSample	prwd_events.c	/^void markMagicSample(unsigned char *buf, int len, unsigned char *mag)$/;"	f
+max	psiphon/main_psiphon.c	86;"	d	file:
+max	psiphon/main_psiphon_with_stdout.c	85;"	d	file:
+max	psiphon/with_outfile_psiphon.c	43;"	d	file:
+max	psiphon/with_stdout_psiphon.c	57;"	d	file:
+max_len	psiphon/main_psiphon.c	/^    unsigned int max_len;$/;"	m	struct:tip_subbuf	file:
+max_len	psiphon/main_psiphon_with_stdout.c	/^    unsigned int max_len;$/;"	m	struct:tip_subbuf	file:
+max_len	psiphon/with_stdout_psiphon.c	/^    unsigned int max_len;$/;"	m	struct:tip_subbuf	file:
+min	psiphon/main_psiphon.c	85;"	d	file:
+min	psiphon/main_psiphon_with_stdout.c	84;"	d	file:
+min	psiphon/with_outfile_psiphon.c	42;"	d	file:
+min	psiphon/with_stdout_psiphon.c	56;"	d	file:
+minor	pcollectfuncs.h	/^	unsigned minor;$/;"	m	struct:old_bio_data_prwd
+minor	prwd_lblk.h	/^	unsigned int minor;$/;"	m	struct:process_node
+mmap_subbuf	psiphon/main_psiphon.c	/^int mmap_subbuf(struct thread_information *tip, unsigned int maxlen)$/;"	f
+mmap_subbuf	psiphon/main_psiphon_with_stdout.c	/^int mmap_subbuf(struct thread_information *tip, unsigned int maxlen)$/;"	f
+my_make_request	prwd_iodisk.c	/^static void my_make_request(struct bio *bio)$/;"	f	file:
+my_relay_reserve	prwd_events.c	/^static inline void *my_relay_reserve(struct rchan *chan, size_t length)$/;"	f	file:
+my_reserve_event_io	prwd_events.c	/^int my_reserve_event_io(struct trace_event_element t, char *relaybuf,__u32 size,$/;"	f
+myktime_get	prwd_events.c	/^ktime_t myktime_get(void)$/;"	f
+name_to_dev_t	harddisk-info.c	/^dev_t name_to_dev_t(char *name)$/;"	f
+nbases	psiphon/main_psiphon.c	/^static int nbases = 0;$/;"	v	file:
+nbases	psiphon/main_psiphon_with_stdout.c	/^static int nbases = 0;$/;"	v	file:
+nbases	psiphon/with_outfile_psiphon.c	/^static int nbases;$/;"	v	file:
+nbases	psiphon/with_stdout_psiphon.c	/^static int nbases;$/;"	v	file:
+ncpus	psiphon/main_psiphon.c	/^static int ncpus;$/;"	v	file:
+ncpus	psiphon/main_psiphon_with_stdout.c	/^static int ncpus;$/;"	v	file:
+ncpus	psiphon/with_outfile_psiphon.c	/^static int ncpus;$/;"	v	file:
+ncpus	psiphon/with_stdout_psiphon.c	/^static int ncpus;$/;"	v	file:
+nomore_hashtab_insert	relayframe.c	/^int nomore_hashtab_insert = 0;$/;"	v
+note_blocknode_attrs	prwd_events.c	/^void note_blocknode_attrs(lblk_datum *ldatum)$/;"	f
+nr_cpu_ids	main_preadwritedump.c	71;"	d	file:
+num_bucketentries	main_preadwritedump.c	/^extern unsigned int num_bucketentries = 0;$/;"	v
+obj-m	Makefile	/^obj-m       := preadwritedump.o$/;"	m
+obj-m	kvmalloc_limits/Makefile	/^	obj-m       := kvalloc.o$/;"	m
+ofile	psiphon/main_psiphon.c	/^    FILE *ofile;				\/* Output file stream *\/$/;"	m	struct:thread_information	file:
+ofile	psiphon/main_psiphon_with_stdout.c	/^    FILE *ofile;				\/* Output file stream *\/$/;"	m	struct:thread_information	file:
+ofile	psiphon/with_outfile_psiphon.c	/^    FILE *ofile;				\/* Output file stream *\/$/;"	m	struct:thread_information	file:
+ofile	psiphon/with_stdout_psiphon.c	/^    FILE *ofile;				\/* Output file stream *\/$/;"	m	struct:thread_information	file:
+ofile_buffer	psiphon/main_psiphon.c	/^    char *ofile_buffer;$/;"	m	struct:thread_information	file:
+ofile_buffer	psiphon/main_psiphon_with_stdout.c	/^    char *ofile_buffer;$/;"	m	struct:thread_information	file:
+ofile_buffer	psiphon/with_outfile_psiphon.c	/^    char *ofile_buffer;$/;"	m	struct:thread_information	file:
+ofile_buffer	psiphon/with_stdout_psiphon.c	/^    char *ofile_buffer;$/;"	m	struct:thread_information	file:
+ofile_mmap	psiphon/main_psiphon.c	/^    int ofile_mmap;$/;"	m	struct:thread_information	file:
+ofile_mmap	psiphon/main_psiphon_with_stdout.c	/^    int ofile_mmap;$/;"	m	struct:thread_information	file:
+ofile_mmap	psiphon/with_outfile_psiphon.c	/^    int ofile_mmap;$/;"	m	struct:thread_information	file:
+ofile_mmap	psiphon/with_stdout_psiphon.c	/^    int ofile_mmap;$/;"	m	struct:thread_information	file:
+ofile_offset	psiphon/main_psiphon.c	/^    off_t ofile_offset;$/;"	m	struct:thread_information	file:
+ofile_offset	psiphon/main_psiphon_with_stdout.c	/^    off_t ofile_offset;$/;"	m	struct:thread_information	file:
+ofile_offset	psiphon/with_outfile_psiphon.c	/^    off_t ofile_offset;$/;"	m	struct:thread_information	file:
+ofile_offset	psiphon/with_stdout_psiphon.c	/^    off_t ofile_offset;$/;"	m	struct:thread_information	file:
+ofile_stdout	psiphon/main_psiphon_with_stdout.c	/^	int ofile_stdout;$/;"	m	struct:thread_information	file:
+ofile_stdout	psiphon/with_stdout_psiphon.c	/^	int ofile_stdout;$/;"	m	struct:thread_information	file:
+old_bio_data_prwd	pcollectfuncs.h	/^struct old_bio_data_prwd {$/;"	s
+output_dir	psiphon/main_psiphon.c	/^static char *output_dir = NULL;$/;"	v	file:
+output_dir	psiphon/main_psiphon_with_stdout.c	/^static char *output_dir = NULL;$/;"	v	file:
+output_dir	psiphon/with_outfile_psiphon.c	/^static char *output_dir;$/;"	v	file:
+output_name	psiphon/main_psiphon.c	/^static char *output_name = "f";$/;"	v	file:
+output_name	psiphon/main_psiphon_with_stdout.c	/^static char *output_name = "f";$/;"	v	file:
+outs_ios	prwd_iodisk.c	/^atomic_t outs_ios = ATOMIC_INIT(0);$/;"	v
+outs_ios_waitq	prwd_iodisk.c	/^DECLARE_WAIT_QUEUE_HEAD(outs_ios_waitq);$/;"	v
+page_size	psiphon/main_psiphon.c	/^static unsigned int page_size;$/;"	v	file:
+page_size	psiphon/main_psiphon_with_stdout.c	/^static unsigned int page_size;$/;"	v	file:
+page_size	psiphon/with_outfile_psiphon.c	/^static unsigned int page_size;$/;"	v	file:
+page_size	psiphon/with_stdout_psiphon.c	/^static unsigned int page_size;$/;"	v	file:
+path	psiphon/main_psiphon.c	/^	char *path;$/;"	m	struct:base_information	file:
+path	psiphon/main_psiphon_with_stdout.c	/^	char *path;$/;"	m	struct:base_information	file:
+path	psiphon/with_outfile_psiphon.c	/^	char *path;$/;"	m	struct:base_information	file:
+path	psiphon/with_stdout_psiphon.c	/^	char *path;$/;"	m	struct:base_information	file:
+pdd_dropped_fops	prwd_events.c	/^static const struct file_operations pdd_dropped_fops = {$/;"	v	typeref:struct:file_operations	file:
+pdd_dropped_open	prwd_events.c	/^static int pdd_dropped_open(struct inode *inode, struct file *filp)$/;"	f	file:
+pdd_dropped_read	prwd_events.c	/^static ssize_t pdd_dropped_read(struct file *filp, char __user *buffer,$/;"	f	file:
+pdd_trace	relayframe.h	/^struct pdd_trace $/;"	s
+pddroot	prwd_events.c	/^struct dentry *pddroot = NULL;$/;"	v	typeref:struct:dentry
+pid	prwd_lblk.h	/^	unsigned int pid;$/;"	m	struct:process_node
+pidfile	psiphon/recv_kernel_sig.c	/^char *pidfile = "\/sys\/kernel\/debug\/signalconfpid";$/;"	v
+preadwritedump-objs	Makefile	/^preadwritedump-objs    := kernel_signal_usr.o harddisk-info.o pdd_scandisk.o relayframe.o prwd_events.o prwd_iodisk.o pcollectfuncs.o main_preadwritedump.o $/;"	m
+preadwritedump_exit	main_preadwritedump.c	/^module_exit(preadwritedump_exit);$/;"	v
+preadwritedump_exit	main_preadwritedump.c	/^static void __exit preadwritedump_exit(void)$/;"	f	file:
+preadwritedump_init	main_preadwritedump.c	/^module_init(preadwritedump_init);$/;"	v
+preadwritedump_init	main_preadwritedump.c	/^static int __init preadwritedump_init(void)$/;"	f	file:
+pro_create_buf_file_callback	relayframe.c	/^static struct dentry * pro_create_buf_file_callback(const char *filename,$/;"	f	file:
+pro_remove_buf_file_callback	relayframe.c	/^static int pro_remove_buf_file_callback(struct dentry *dentry)$/;"	f	file:
+probes_reg_flag	prwd_iodisk.c	/^static int probes_reg_flag = 0;$/;"	v	file:
+process_node	prwd_lblk.h	/^struct process_node{$/;"	s
+processname	pcollectfuncs.h	/^	char processname[PNAME_LEN];$/;"	m	struct:old_bio_data_prwd
+processname	prwd_lblk.h	/^	char processname[PNAME_LEN];$/;"	m	struct:process_node
+producerdone	psiphon/recv_kernel_sig.c	/^volatile int producerdone = 0;$/;"	v
+progname	psiphon/main_psiphon.c	/^char *progname = NULL;		\/\/removing hardcoding on july 23 2014$/;"	v
+progname	psiphon/main_psiphon_with_stdout.c	/^char *progname = "pdatadump";	\/* hardcoded *\/$/;"	v
+psiphon_version	psiphon/main_psiphon.c	/^static char psiphon_version[] = "0.1.0";$/;"	v	file:
+psiphon_version	psiphon/main_psiphon_with_stdout.c	/^static char psiphon_version[] = "0.1.0";$/;"	v	file:
+psiphon_version	psiphon/with_outfile_psiphon.c	/^static char psiphon_version[] = "0.1.0";$/;"	v	file:
+psiphon_version	psiphon/with_stdout_psiphon.c	/^static char psiphon_version[] = "0.1.0";$/;"	v	file:
+pt1	prwd_events.c	/^struct pdd_trace *pt1 = NULL;$/;"	v	typeref:struct:pdd_trace
+pt2	prwd_events.c	/^struct pdd_trace *pt2 = NULL;$/;"	v	typeref:struct:pdd_trace
+q	psiphon/main_psiphon.c	/^    struct tip_subbuf *q[FIFO_SIZE];$/;"	m	struct:tip_subbuf_fifo	typeref:struct:tip_subbuf_fifo::tip_subbuf	file:
+q	psiphon/main_psiphon_with_stdout.c	/^    struct tip_subbuf *q[FIFO_SIZE];$/;"	m	struct:tip_subbuf_fifo	typeref:struct:tip_subbuf_fifo::tip_subbuf	file:
+q	psiphon/with_stdout_psiphon.c	/^    struct tip_subbuf *q[FIFO_SIZE];$/;"	m	struct:tip_subbuf_fifo	typeref:struct:tip_subbuf_fifo::tip_subbuf	file:
+qtime	pcollectfuncs.h	/^    s64     qtime;$/;"	m	struct:old_bio_data_prwd
+rchan	relayframe.h	/^	struct rchan *rchan;$/;"	m	struct:pdd_trace	typeref:struct:pdd_trace::rchan
+read_data	psiphon/main_psiphon.c	/^static int read_data(struct thread_information *tip, void *buf, unsigned len)$/;"	f	file:
+read_data	psiphon/main_psiphon_with_stdout.c	/^static int read_data(struct thread_information *tip, void *buf, unsigned len)$/;"	f	file:
+read_data	psiphon/with_outfile_psiphon.c	/^static int read_data(struct thread_information *tip, void *buf, unsigned len)$/;"	f	file:
+read_data	psiphon/with_stdout_psiphon.c	/^static int read_data(struct thread_information *tip, void *buf, unsigned len)$/;"	f	file:
+receiveSig	psiphon/recv_kernel_sig.c	/^void receiveSig(__attribute__((__unused__))int n, $/;"	f
+recreate_output	psiphon/main_psiphon.c	/^static unsigned int recreate_output = 0;$/;"	v	file:
+recreate_output	psiphon/main_psiphon_with_stdout.c	/^static unsigned int recreate_output = 0;$/;"	v	file:
+recreate_output	psiphon/with_outfile_psiphon.c	/^static unsigned int recreate_output = 0;$/;"	v	file:
+relaychan_exit	relayframe.c	/^void relaychan_exit(struct rchan **c) \/\/, struct pro_trace *pt)$/;"	f
+relaychan_init	relayframe.c	/^int relaychan_init(char *eventsfile, struct rchan **c, $/;"	f
+relays_started_flag	prwd_events.c	/^static int relays_started_flag = 0;$/;"	v	file:
+requested_len	pcollectfuncs.h	/^	u32 requested_len;$/;"	m	struct:old_bio_data_prwd
+res	kvmalloc_limits/kvalloc.c	/^static struct proc_dir_entry *res;$/;"	v	typeref:struct:proc_dir_entry	file:
+reserve_event_io	prwd_events.c	/^int reserve_event_io(struct trace_event_element t, char *relaybuf, __u32 size,$/;"	f
+reserve_event_scan	prwd_events.c	/^int reserve_event_scan(struct trace_event_element t, char *relaybuf,__u32 size,$/;"	f
+resize_bases	psiphon/main_psiphon.c	/^static int resize_bases(char *path)$/;"	f	file:
+resize_bases	psiphon/main_psiphon_with_stdout.c	/^static int resize_bases(char *path)$/;"	f	file:
+resize_bases	psiphon/with_outfile_psiphon.c	/^static int resize_bases(char *path)$/;"	f	file:
+resize_bases	psiphon/with_stdout_psiphon.c	/^static int resize_bases(char *path)$/;"	f	file:
+runningcount	prwd_events.c	/^long runningcount = 0;$/;"	v
+scan_and_process	pdd_scandisk.c	/^int scan_and_process(dev_t *dev)$/;"	f
+scan_callbacks	relayframe.c	/^static struct rchan_callbacks scan_callbacks = {$/;"	v	typeref:struct:rchan_callbacks	file:
+scan_subbuf_start_callback	relayframe.c	/^static int scan_subbuf_start_callback(struct rchan_buf *buf, void *subbuf,$/;"	f	file:
+scanchan	prwd_events.c	/^struct rchan *scanchan = NULL;	\/* relay channel for scanning phase *\/$/;"	v	typeref:struct:rchan
+scancount	prwd_events.c	/^unsigned long long *scancount = NULL;$/;"	v
+scandisk_relaychan_exit	prwd_events.c	/^void scandisk_relaychan_exit()$/;"	f
+scandisk_relaychan_init	prwd_events.c	/^int scandisk_relaychan_init(void)$/;"	f
+scandisk_routine	pdd_scandisk.c	/^int scandisk_routine(void *arg)$/;"	f
+scanning	pdd_scandisk.c	/^atomic_t scanning = ATOMIC_INIT(0);	\/* set to 1 while scanning *\/$/;"	v
+scanning_waitq	pdd_scandisk.c	/^DECLARE_WAIT_QUEUE_HEAD(scanning_waitq);$/;"	v
+scantab	lblktab.c	/^struct lblktab_t scantab;$/;"	v	typeref:struct:lblktab_t
+scantab_alive	lblktab.c	/^static int scantab_alive = 0;$/;"	v	file:
+scantab_exit	lblktab.c	/^void scantab_exit(void)$/;"	f
+scantab_init	lblktab.c	/^int scantab_init(struct lblktab_t *l, unsigned int size)$/;"	f
+send_kernel_signal_usr	kernel_signal_usr.c	/^int send_kernel_signal_usr(void)$/;"	f
+set_remap_sector	pcollectfuncs.c	/^void set_remap_sector(struct bio *bio, struct old_bio_data_prwd *old_bio)$/;"	f
+show_usage	psiphon/main_psiphon.c	/^static void show_usage(char *program)$/;"	f	file:
+show_usage	psiphon/main_psiphon_with_stdout.c	/^static void show_usage(char *program)$/;"	f	file:
+show_usage	psiphon/with_outfile_psiphon.c	/^static void show_usage(char *program)$/;"	f	file:
+show_usage	psiphon/with_stdout_psiphon.c	/^static void show_usage(char *program)$/;"	f	file:
+signalfile	kernel_signal_usr.c	/^struct dentry *signalfile;$/;"	v	typeref:struct:dentry
+siphon_stopped	psiphon/main_psiphon.c	/^static volatile int siphon_stopped;$/;"	v	file:
+siphon_stopped	psiphon/main_psiphon_with_stdout.c	/^static volatile int siphon_stopped;$/;"	v	file:
+siphon_stopped	psiphon/with_outfile_psiphon.c	/^static volatile int siphon_stopped;$/;"	v	file:
+siphon_stopped	psiphon/with_stdout_psiphon.c	/^static volatile int siphon_stopped;$/;"	v	file:
+start_probes	prwd_iodisk.c	/^int start_probes(void)$/;"	f
+start_relays	prwd_events.c	/^int start_relays(void)$/;"	f
+start_siphon	psiphon/main_psiphon.c	/^static int start_siphon(void)$/;"	f	file:
+start_siphon	psiphon/main_psiphon_with_stdout.c	/^static int start_siphon(void)$/;"	f	file:
+start_siphon	psiphon/with_outfile_psiphon.c	/^static int start_siphon(void)$/;"	f	file:
+start_siphon	psiphon/with_stdout_psiphon.c	/^static int start_siphon(void)$/;"	f	file:
+start_threads	psiphon/with_outfile_psiphon.c	/^static int start_threads(struct base_information *bip)$/;"	f	file:
+start_threads	psiphon/with_stdout_psiphon.c	/^static int start_threads(struct base_information *bip)$/;"	f	file:
+stash_new_block	prwd_events.c	/^int stash_new_block(unsigned char* buf, sector_t blockID)$/;"	f
+stop_all_threads	psiphon/main_psiphon.c	/^static void stop_all_threads(void)$/;"	f	file:
+stop_all_threads	psiphon/main_psiphon_with_stdout.c	/^static void stop_all_threads(void)$/;"	f	file:
+stop_all_threads	psiphon/with_outfile_psiphon.c	/^static void stop_all_threads(void)$/;"	f	file:
+stop_all_threads	psiphon/with_stdout_psiphon.c	/^static void stop_all_threads(void)$/;"	f	file:
+stop_siphon	psiphon/main_psiphon.c	/^static void stop_siphon(int status)$/;"	f	file:
+stop_siphon	psiphon/main_psiphon_with_stdout.c	/^static void stop_siphon(int status)$/;"	f	file:
+stop_siphon	psiphon/with_outfile_psiphon.c	/^static void stop_siphon(int status)$/;"	f	file:
+stop_siphon	psiphon/with_stdout_psiphon.c	/^static void stop_siphon(int status)$/;"	f	file:
+stop_threads	psiphon/main_psiphon.c	/^static void stop_threads(struct base_information *bip)$/;"	f	file:
+stop_threads	psiphon/main_psiphon_with_stdout.c	/^static void stop_threads(struct base_information *bip)$/;"	f	file:
+stop_threads	psiphon/with_outfile_psiphon.c	/^static void stop_threads(struct base_information *bip)$/;"	f	file:
+stop_threads	psiphon/with_stdout_psiphon.c	/^static void stop_threads(struct base_information *bip)$/;"	f	file:
+store_barrier	psiphon/barrier.h	11;"	d
+store_barrier	psiphon/barrier.h	13;"	d
+store_barrier	psiphon/barrier.h	15;"	d
+store_barrier	psiphon/barrier.h	17;"	d
+store_barrier	psiphon/barrier.h	19;"	d
+store_barrier	psiphon/barrier.h	21;"	d
+store_barrier	psiphon/barrier.h	23;"	d
+store_barrier	psiphon/barrier.h	28;"	d
+store_barrier	psiphon/barrier.h	5;"	d
+store_barrier	psiphon/barrier.h	7;"	d
+store_barrier	psiphon/barrier.h	9;"	d
+stringify	config.h	38;"	d
+subbuf_fifo_dequeue	psiphon/main_psiphon.c	/^subbuf_fifo_dequeue(struct thread_information *tip)$/;"	f	file:
+subbuf_fifo_dequeue	psiphon/main_psiphon_with_stdout.c	/^subbuf_fifo_dequeue(struct thread_information *tip)$/;"	f	file:
+subbuf_fifo_dequeue	psiphon/with_stdout_psiphon.c	/^subbuf_fifo_dequeue(struct thread_information *tip)$/;"	f	file:
+subbuf_fifo_queue	psiphon/main_psiphon.c	/^static inline int subbuf_fifo_queue(struct thread_information *tip,$/;"	f	file:
+subbuf_fifo_queue	psiphon/main_psiphon_with_stdout.c	/^static inline int subbuf_fifo_queue(struct thread_information *tip,$/;"	f	file:
+subbuf_fifo_queue	psiphon/with_stdout_psiphon.c	/^static inline int subbuf_fifo_queue(struct thread_information *tip,$/;"	f	file:
+tail	psiphon/main_psiphon.c	/^    int tail __attribute__((aligned(CL_SIZE)));$/;"	m	struct:tip_subbuf_fifo	file:
+tail	psiphon/main_psiphon_with_stdout.c	/^    int tail __attribute__((aligned(CL_SIZE)));$/;"	m	struct:tip_subbuf_fifo	file:
+tail	psiphon/with_stdout_psiphon.c	/^    int tail __attribute__((aligned(CL_SIZE)));$/;"	m	struct:tip_subbuf_fifo	file:
+tgid	pcollectfuncs.h	/^	unsigned int tgid;	\/\/pid $/;"	m	struct:old_bio_data_prwd
+thread	psiphon/main_psiphon.c	/^    pthread_t thread;			\/* This thread *\/$/;"	m	struct:thread_information	file:
+thread	psiphon/main_psiphon_with_stdout.c	/^    pthread_t thread;			\/* This thread *\/$/;"	m	struct:thread_information	file:
+thread	psiphon/with_outfile_psiphon.c	/^    pthread_t thread;			\/* This thread *\/$/;"	m	struct:thread_information	file:
+thread	psiphon/with_stdout_psiphon.c	/^    pthread_t thread;			\/* This thread *\/$/;"	m	struct:thread_information	file:
+thread_information	psiphon/main_psiphon.c	/^static struct thread_information *thread_information;$/;"	v	typeref:struct:thread_information	file:
+thread_information	psiphon/main_psiphon.c	/^struct thread_information {$/;"	s	file:
+thread_information	psiphon/main_psiphon_with_stdout.c	/^static struct thread_information *thread_information;$/;"	v	typeref:struct:thread_information	file:
+thread_information	psiphon/main_psiphon_with_stdout.c	/^struct thread_information {$/;"	s	file:
+thread_information	psiphon/with_outfile_psiphon.c	/^static struct thread_information *thread_information;$/;"	v	typeref:struct:thread_information	file:
+thread_information	psiphon/with_outfile_psiphon.c	/^struct thread_information {$/;"	s	file:
+thread_information	psiphon/with_stdout_psiphon.c	/^static struct thread_information *thread_information;$/;"	v	typeref:struct:thread_information	file:
+thread_information	psiphon/with_stdout_psiphon.c	/^struct thread_information {$/;"	s	file:
+thread_main	psiphon/main_psiphon.c	/^static void *thread_main(void *arg)$/;"	f	file:
+thread_main	psiphon/main_psiphon_with_stdout.c	/^static void *thread_main(void *arg)$/;"	f	file:
+thread_main	psiphon/with_outfile_psiphon.c	/^static void *thread_main(void *arg)$/;"	f	file:
+thread_main	psiphon/with_stdout_psiphon.c	/^static void *thread_main(void *arg)$/;"	f	file:
+threadparm_init	psiphon/main_psiphon.c	/^static int threadparm_init(struct base_information *bip)$/;"	f	file:
+threadparm_init	psiphon/main_psiphon_with_stdout.c	/^static int threadparm_init(struct base_information *bip)$/;"	f	file:
+threads	psiphon/main_psiphon.c	/^	struct thread_information *threads;$/;"	m	struct:base_information	typeref:struct:base_information::thread_information	file:
+threads	psiphon/main_psiphon_with_stdout.c	/^	struct thread_information *threads;$/;"	m	struct:base_information	typeref:struct:base_information::thread_information	file:
+threads	psiphon/with_outfile_psiphon.c	/^	struct thread_information *threads;$/;"	m	struct:base_information	typeref:struct:base_information::thread_information	file:
+threads	psiphon/with_stdout_psiphon.c	/^	struct thread_information *threads;$/;"	m	struct:base_information	typeref:struct:base_information::thread_information	file:
+tip_ftrunc_final	psiphon/main_psiphon.c	/^static void tip_ftrunc_final(struct thread_information *tip)$/;"	f	file:
+tip_ftrunc_final	psiphon/main_psiphon_with_stdout.c	/^static void tip_ftrunc_final(struct thread_information *tip)$/;"	f	file:
+tip_ftrunc_final	psiphon/with_outfile_psiphon.c	/^static void tip_ftrunc_final(struct thread_information *tip)$/;"	f	file:
+tip_ftrunc_final	psiphon/with_stdout_psiphon.c	/^static void tip_ftrunc_final(struct thread_information *tip)$/;"	f	file:
+tip_open_output	psiphon/main_psiphon.c	/^static int tip_open_output(struct thread_information *tip)$/;"	f	file:
+tip_open_output	psiphon/main_psiphon_with_stdout.c	/^static int tip_open_output(struct thread_information *tip)$/;"	f	file:
+tip_open_output	psiphon/with_outfile_psiphon.c	/^static int tip_open_output(struct thread_information *tip)$/;"	f	file:
+tip_open_output	psiphon/with_stdout_psiphon.c	/^static int tip_open_output(struct thread_information *tip)$/;"	f	file:
+tip_subbuf	psiphon/main_psiphon.c	/^struct tip_subbuf {$/;"	s	file:
+tip_subbuf	psiphon/main_psiphon_with_stdout.c	/^struct tip_subbuf {$/;"	s	file:
+tip_subbuf	psiphon/with_stdout_psiphon.c	/^struct tip_subbuf {$/;"	s	file:
+tip_subbuf_fifo	psiphon/main_psiphon.c	/^struct tip_subbuf_fifo {$/;"	s	file:
+tip_subbuf_fifo	psiphon/main_psiphon_with_stdout.c	/^struct tip_subbuf_fifo {$/;"	s	file:
+tip_subbuf_fifo	psiphon/with_stdout_psiphon.c	/^struct tip_subbuf_fifo {$/;"	s	file:
+totalioc	prwd_events.c	/^unsigned long long totalioc = 0;$/;"	v
+totalscanc	prwd_events.c	/^unsigned long long totalscanc = 0;$/;"	v
+trace_dev	psiphon/main_psiphon.c	/^static char *trace_dev = NULL;$/;"	v	file:
+trace_dev	psiphon/main_psiphon_with_stdout.c	/^static char *trace_dev = NULL;$/;"	v	file:
+trace_event_element	psiphon/trace_struct.h	/^struct trace_event_element$/;"	s
+trace_event_element	trace_struct.h	/^struct trace_event_element$/;"	s
+try_name	harddisk-info.c	/^static dev_t try_name(char *name, int part)$/;"	f	file:
+usage_str	psiphon/main_psiphon.c	/^static char usage_str[] = \\$/;"	v	file:
+usage_str	psiphon/main_psiphon_with_stdout.c	/^static char usage_str[] = \\$/;"	v	file:
+usage_str	psiphon/with_outfile_psiphon.c	/^static char usage_str[] = \\$/;"	v	file:
+usage_str	psiphon/with_stdout_psiphon.c	/^static char usage_str[] = \\$/;"	v	file:
+usrinfo	kernel_signal_usr.c	/^struct siginfo usrinfo;$/;"	v	typeref:struct:siginfo
+usrpid	kernel_signal_usr.c	/^int usrpid;$/;"	v
+usrpid_waitq	kernel_signal_usr.c	/^DECLARE_WAIT_QUEUE_HEAD(usrpid_waitq);$/;"	v
+vc_bio_end_prwd	pcollectfuncs.c	/^int vc_bio_end_prwd(struct bio *bio, unsigned int bytes_done, int err)$/;"	f
+vc_stack_endio_prwd	pcollectfuncs.c	/^struct old_bio_data_prwd *vc_stack_endio_prwd(struct bio *bio, bio_end_io_t *fn, int gfp, char* processname, unsigned int tgid)$/;"	f
+vc_unstack_endio_prwd	pcollectfuncs.c	/^struct old_bio_data_prwd * vc_unstack_endio_prwd(struct bio *bio)$/;"	f
+verify_trace	psiphon/endianness.c	/^int verify_trace(__u32 magic)$/;"	f
+vm	kvmalloc_limits/kvalloc.c	/^	u32 *vm;			 \/\/ address to alloc at$/;"	m	struct:_ST_CTX	file:
+vmall_cleanup_module	kvmalloc_limits/kvalloc.c	/^module_exit(vmall_cleanup_module);$/;"	v
+vmall_cleanup_module	kvmalloc_limits/kvalloc.c	/^static void __exit vmall_cleanup_module(void)$/;"	f	file:
+vmall_init_module	kvmalloc_limits/kvalloc.c	/^module_init(vmall_init_module);$/;"	v
+vmall_init_module	kvmalloc_limits/kvalloc.c	/^static int __init vmall_init_module(void)$/;"	f	file:
+vmalloc_procread	kvmalloc_limits/kvalloc.c	/^static int vmalloc_procread(char *buf, char **start, off_t offset,$/;"	f	file:
+vmalloc_procwrite	kvmalloc_limits/kvalloc.c	/^static int vmalloc_procwrite(struct file *file, const char __user *buffer,$/;"	f	file:
+vname	kvmalloc_limits/kvalloc.c	/^	char * kname, *vname;$/;"	m	struct:_ST_CTX	file:
+wait_for_data	psiphon/main_psiphon.c	/^int wait_for_data(struct thread_information *tip, int timeout)$/;"	f
+wait_for_data	psiphon/main_psiphon_with_stdout.c	/^int wait_for_data(struct thread_information *tip, int timeout)$/;"	f
+wait_for_data	psiphon/with_outfile_psiphon.c	/^static void wait_for_data(struct thread_information *tip, int timeout)$/;"	f	file:
+wait_for_data	psiphon/with_stdout_psiphon.c	/^static void wait_for_data(struct thread_information *tip, int timeout)$/;"	f	file:
+wait_for_threads	psiphon/main_psiphon.c	/^static void wait_for_threads(void)$/;"	f	file:
+wait_for_threads	psiphon/main_psiphon_with_stdout.c	/^static void wait_for_threads(void)$/;"	f	file:
+wait_for_threads	psiphon/with_outfile_psiphon.c	/^static void wait_for_threads(void)$/;"	f	file:
+wait_for_threads	psiphon/with_stdout_psiphon.c	/^static void wait_for_threads(void)$/;"	f	file:
+wrapptime	prwd_events.c	/^long wrapptime = 0;$/;"	v
+write_0_and_exit	psiphon/recv_kernel_sig.c	/^int write_0_and_exit(void)$/;"	f
+write_data	psiphon/main_psiphon_with_stdout.c	/^static int write_data(struct thread_information *tip, void *buf, $/;"	f	file:
+write_data	psiphon/with_stdout_psiphon.c	/^static int write_data(struct thread_information *tip, void *buf, $/;"	f	file:
+write_event	prwd_events.c	/^int write_event(int traceaction, struct block_node *ldatum,$/;"	f
+write_event_io	prwd_events.c	/^int write_event_io(struct trace_event_element t, char *relaybuf, __u32 size,$/;"	f
+write_event_scan	prwd_events.c	/^int write_event_scan(struct trace_event_element t, char *relaybuf, __u32 size,$/;"	f
+write_pid	kernel_signal_usr.c	/^static ssize_t write_pid(struct file *file, const char __user *buf,$/;"	f	file:
+write_pid_to_debugfs	psiphon/recv_kernel_sig.c	/^int write_pid_to_debugfs(void)$/;"	f
+write_tip_events	psiphon/main_psiphon_with_stdout.c	/^static int write_tip_events(struct thread_information *tip)$/;"	f	file:
+write_tip_events	psiphon/with_stdout_psiphon.c	/^static int write_tip_events(struct thread_information *tip)$/;"	f	file:
+xstringify	config.h	37;"	d
+zeroarray	pdd_scandisk.c	/^static const char zeroarray[65537] = { 0 };$/;"	v	file:
+zerobuf	psiphon/main_psiphon.c	/^char zerobuf[1024 * 1024] = {};$/;"	v
